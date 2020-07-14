@@ -1,0 +1,17 @@
+{
+    "name": "nawarian/novidades-do-php",
+    "description": "Código da Live Stream sobre Novidades do PHP",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.2",
+        "spatie/phpunit-watcher": "^1.22"
+    },
+    "license": "GPL-3",
+    "authors": [
+        {
+            "name": "Nawarian",
+            "email": "nickolas@phpsp.org.br"
+        }
+    ],
+    "require": {}
+}
