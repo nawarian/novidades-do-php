@@ -36,4 +36,18 @@ class TestPHP74Obsolescencia extends TestCase
         self::assertFalse(get_magic_quotes_runtime());
         self::assertEquals('Function get_magic_quotes_runtime() is deprecated', error_get_last()['message']);
     }
+
+    /**
+     * @test
+     * @group php74
+     */
+    public function filterSanitizeMagicQuotes(): void
+    {
+        filter_var('nawarian', FILTER_SANITIZE_MAGIC_QUOTES);
+
+        self::assertEquals(
+            'filter_var(): FILTER_SANITIZE_MAGIC_QUOTES is deprecated, use FILTER_SANITIZE_ADD_SLASHES instead',
+            error_get_last()['message']
+        );
+    }
 }
