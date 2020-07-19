@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker-compose run php74 vendor/bin/phpunit-watcher watch --group php74 --testsuite php74
+docker-compose run php74 -d 'ffi.enable=true' vendor/bin/phpunit-watcher watch --group php74 --testsuite php74
