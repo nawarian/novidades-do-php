@@ -4,11 +4,20 @@ use PHPUnit\Framework\TestCase;
 
 class TestPHP74 extends TestCase
 {
-    /**
-     * @see https://wiki.php.net/rfc/typed_properties_v2
-     */
-    private string $myString;
-
+//    /**
+//     * @see https://wiki.php.net/rfc/typed_properties_v2
+//     */
+//    private string $myString = 'nawarian';
+//
+//    /**
+//     * @test
+//     * @group php74
+//     * @see https://wiki.php.net/rfc/base_convert_improvements
+//     */
+//    public function base_convertChanges(): void
+//    {
+//    }
+//
 //    /**
 //     * @test
 //     * @group php74
@@ -17,7 +26,16 @@ class TestPHP74 extends TestCase
 //    public function numericLiteralSeparator(): void
 //    {
 //    }
-
+//
+//    /**
+//     * @test
+//     * @group php74
+//     * @see https://wiki.php.net/rfc/tostring_exceptions
+//     */
+//    public function allowThrowExceptionFrom__toString(): void
+//    {
+//    }
+//
 //    /**
 //     * @test
 //     * @group php74
@@ -26,7 +44,7 @@ class TestPHP74 extends TestCase
 //    public function arraySpreadOperator(): void
 //    {
 //    }
-
+//
 //    /**
 //     * @test
 //     * @group php74
@@ -35,7 +53,7 @@ class TestPHP74 extends TestCase
 //    public function arrowFunctions(): void
 //    {
 //    }
-
+//
 //    /**
 //     * @test
 //     * @group php74
@@ -57,7 +75,7 @@ class TestPHP74 extends TestCase
 //        $a = FFI::new("unsigned char[1024*1024]");
 //        var_dump(FFI::sizeof($a));
 //    }
-
+//
 //    /**
 //     * @test
 //     * @group php74
